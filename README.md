@@ -27,3 +27,17 @@ as asm.s -o asm.o
 gcc -o asm asm.o -nostdlib -no-pie
 ./asm
 ```
+## Output
+
+```text
+Type a first number:
+10
+
+Type a second number:
+5
+
+Type operator (+ - * /):
++
+
+15
+```
